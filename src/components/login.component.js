@@ -89,12 +89,12 @@ export default class Login extends Component {
     }
 
     return (
-      <div className="col-md-4">
-        <div className="card card-container p-3">
+      <div className="form-modal">
+        <div className="card card-container p-3 bg-silver">
           <img
             src={require('../Assests/images/user-image.png')}
             alt="profile-img"
-            className="login-user-img"
+            className="login-user-img m-3"
           />
 
           <Form
@@ -103,7 +103,7 @@ export default class Login extends Component {
               this.form = c;
             }}
           >
-            <div className="form-group">
+            <div className="form-group m-3">
               <label htmlFor="username">Username</label>
               <Input
                 type="text"
@@ -115,7 +115,7 @@ export default class Login extends Component {
               />
             </div>
 
-            <div className="form-group">
+            <div className="form-group m-3">
               <label htmlFor="password">Password</label>
               <Input
                 type="password"
@@ -127,7 +127,7 @@ export default class Login extends Component {
               />
             </div>
 
-            <div className="form-group">
+            <div className="form-group m-3">
               <button
                 className="btn btn-primary btn-block"
                 disabled={this.state.loading}

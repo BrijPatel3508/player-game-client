@@ -1,6 +1,7 @@
 import './App.css';
 import './Assests/styles/inputField.css'
 import './Assests/styles/forms.css'
+import './Assests/styles/dialog.css'
 import { Routes, Route, Link, Navigate } from "react-router-dom";
 import React from 'react-dom';
 import Home from './components/home.component'

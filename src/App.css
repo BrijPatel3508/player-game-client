@@ -41,3 +41,7 @@
 .ml-auto {
   margin-left: auto;
 }
+
+.bg-silver {
+  background-color: #f1f1f1cc !important;
+}
